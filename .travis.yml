@@ -1,3 +1,4 @@
+languague: php
 deploy:
   provider: heroku
   api_key:
