@@ -1,4 +1,8 @@
 language: php
+php:
+  - 7.1.9
+script:
+  - phpunit --no-coverage indexTest.php
 deploy:
   provider: heroku
   api_key:
