@@ -1,9 +1,10 @@
 language: php
 php:
   - 7.1.9
-script:
+before_script:
   - composer install
-  - phpunit --no-coverage indexTest.php
+script:
+  - vender/bin/phpunit --no-coverage indexTest.php
 deploy:
   provider: heroku
   api_key:
