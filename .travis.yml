@@ -2,6 +2,7 @@ language: php
 php:
   - 7.1.9
 script:
+  - composer install
   - phpunit --no-coverage indexTest.php
 deploy:
   provider: heroku
