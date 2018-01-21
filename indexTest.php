@@ -1,6 +1,7 @@
 <?php
-class indexTest {
+class indexTest extends \PHPUnit_Framework_TestCase {
     public function testIndex() {
-        echo "success";
+        echo "Failed";
+        exit(1);
     }
 }
